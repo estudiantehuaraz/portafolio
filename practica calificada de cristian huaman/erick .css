@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #087ae4;
+    background-image: url(https://artfiles.alphacoders.com/114/114497.jpg);
+}
+
+header {
+    background-color: #f3aa0b;
+    padding: 10px 0;
+}
+
+
+
+nav {
+    background-color: #e21616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    
+    margin-left: 25px;
+    
+}
+a:hover{
+    background-color: #dcf309cf;}
+
+nav a {
+    color: #070bf1;
+    text-decoration: none;
+}
+
+.portada {
+    text-align: center;
+    padding: 20px;
+    background-color: #edf108;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    background-color: #e21616;
+    color: #09ec42;
+    background-image: url(https://th.bing.com/th/id/OIP._O4r3jUbhCWQcHxRzCxI-AHaEK?rs=1&pid=ImgDetMain);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(227, 243, 7, 0.1);
+}
+
+.btn1 {
+    background-color: #4CAF50;
+    color: rgb(10, 88, 233);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+
+.cartas {
+
+    background-color: #4c6faf;
+    color: #08f1ab;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-image: url(https://th.bing.com/th/id/R.db393817a6e3bd2017163ec3288fdb6a?rik=5qQ1jqAUQAhjwA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-j_H4qWIiwcA%2fTb1QsAfzUxI%2fAAAAAAAAAFI%2fNogNOUUqm-M%2fs1600%2fpanaderia.jpg&ehk=BUxAWx6qWWZJdHOXYN%2boLoV0qejKC6shc8BTTcPDcsA%3d&risl=&pid=ImgRaw&r=0);
+    
+
+
+}
+
+.producto {
+    background-color: #f3aa0b;
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #9bf30d;
+    border-radius: 5px;
+}
+
+.producto img {
+    background-color: aqua;
+    color: #15f53a;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.venta_producto {
+    background-color: #ecb80f;
+    text-align: center;
+    padding: 20px;
+    background-color: #17eb9a;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #e00c0c;
+    text-align: center;
+    padding: 10px 0;
+}
+

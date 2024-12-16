@@ -1,0 +1,281 @@
+* Quitar margin y el padding al boddy */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado (header) */
+header{
+    background-color: #003cff;
+    color: #ffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header > div img{
+    width: 100%;
+}
+
+header > p{
+    font-size: 30px;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li{
+    list-style: none;
+    margin: 15px 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color, padding 0.4s;
+    border-radius: 15px;
+}
+
+nav a:hover{
+    background-color: #000;
+    padding: 20px;
+    color: #fff;
+    border: 1px solid #ffff;
+}
+
+
+.m_vertical{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li:hover .m_vertical{
+    display: block;
+    position: absolute;
+}
+/* seccion 1 */
+
+.sec1{
+    background: linear-gradient(#003cff, #04207e);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+.sec1 h1{
+    color: #fff;
+}
+
+.sec1 p{
+    font-size: 25px;
+    color: #fff
+}
+
+
+/* Seccion 2 */
+
+.sec2{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards div{
+    border-radius: 8px;
+    border: 1px solid #000;
+    width: 200px;
+    margin: 20px 20px;
+    text-align: center;
+    padding: 15px;
+    transition: box-shadow, width 0.4s;
+}
+
+.cards div:hover{
+    width: 220px;
+    box-shadow: 0px 0px 15px 2px #b6b6b6;
+    border: 3px solid #f4d50b;
+}
+
+.cards div h4{
+    color: #ecbc10;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.cards div h5{
+    color: #3ec02f;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cards div img{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto label {
+    margin-bottom: 5px;
+}
+
+
+.contacto textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #db2d2d;
+    border-radius: 5px;
+}
+
+.contacto button {
+    background-color: #1fca10;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Seccion 3 */
+
+.sec3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #cec7c7;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec3 h1{
+    padding: 10px 0 0 0;
+}
+
+.formulario{
+        background-color: #8080801f;
+        width: 150px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .txt{
+        width: 300px;
+        height: 35px;
+        margin: 5px;
+        border: none;
+        border: 1px solid #cdcaca;
+        border-radius: 5px;
+        padding: 0 10px 0 10px;
+    }
+    
+    .btn{
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        width: 307px;
+        height: 35px;
+        background-color:#0866ff;
+        margin: 7px 0 10px 0;
+        border: none;
+        border-radius: 5px;
+    }
+    a{
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .linea_divi{
+        width: 300px;
+        border-bottom: 1px solid #cdcaca;
+        margin: 18px auto 18px auto;
+        
+    }
+    .btn1{
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: #42b72a;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 18px;
+}
+
+/* Pie de Página (footer) */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: 15px auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="button"] {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+#contacto{
+    padding: 25px;
+    text-align: center;
+}
+
+
+
+
+footer{
+    background-color: #e61414;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}

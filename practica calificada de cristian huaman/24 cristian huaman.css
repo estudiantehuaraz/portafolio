@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(0, 174, 255);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header {
+    background-color: #e0f006c7;
+    padding: 10px;
+    position: sticky;
+    top: 0; 
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav div {
+    display: inline-block;
+    height: 25px;
+    position: relative;
+    top: 25px;
+}
+li {
+    display: inline-block;
+    margin: 0 15px;
+    font-family: Comic Sans MS;
+}
+
+li a {
+    color: #131514;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background-color 0.4s;
+}
+
+li a:hover {
+    background-color: #f11212;
+}
+
+.text1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+}
+.cart {
+    text-align: center;
+    margin: auto;
+}
+
+.cart  div {
+    width: 150px;
+    border-radius: 5px;
+    background-color: #cac3c9;
+    display: inline-block;
+    margin: 0 15px;
+    color: #1d546a;
+    text-align: center;
+    padding: 15px;
+    transition: box-shadow, 0,4s;
+}
+
+.cart div:hover{
+    box-shadow: 0 0 5px 10px #161515 ;   /* Nos permite dar sombra a un elemento*/
+}
+.cart div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.cart a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #000000;
+    color: #faf7f7;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+h1{
+    color:aqua
+}
+p{
+    color: #572da5;
+
+}
+btn1{
+    background-color: #f3e4159d;
+    height: 30px;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 270px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
